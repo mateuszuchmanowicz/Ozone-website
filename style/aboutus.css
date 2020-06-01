@@ -1,0 +1,73 @@
+.background{
+    background-image: url("../media/x.jpg");
+}
+.main-container{
+    font-family: 'Electrolize', sans-serif;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.main-text h1{
+    font-size: 6vw;
+    background: rgba(75, 74, 74, 0.4);
+    margin-bottom: 50px;
+}
+@keyframes color-changer{
+    0%{color: white;}
+    50% {box-shadow: -1px -2px 58px 10px rgba(235,12,12,0.63);}
+    100%{color: white;}
+}
+.letter-decoration{
+    /* color: red; */
+    font-weight: bold;
+    animation-iteration-count: infinite;
+    animation-name: color-changer;
+    animation-duration: 2500ms;
+}
+.submain-text h2{
+    padding-top: 30px;
+    font-size: 3vw;
+}
+@media screen and (max-width: 767px){
+    .main-text h1{
+        font-size: 6vh;
+    }
+    .submain-text h2{
+        font-size: 3vh;
+    }
+}
+
+.arrow-navigation-up{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    background: rgba(75, 74, 74, 0.7);
+    visibility: hidden;
+}
+.arrow-navigation-up a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.arrow{
+    font-size: 40px;
+}
+.baner-container{
+    display: flex;
+    justify-content: center;
+}
+.baner-image{
+  
+}
+.first-image{
+    width: 400px;
+}
