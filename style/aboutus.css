@@ -1,10 +1,16 @@
+*{
+    overflow-X: hidden;
+}
 .background{
     background-image: url("../media/x.jpg");
+    z-index: 3;
+    
+
 }
 .main-container{
     font-family: 'Electrolize', sans-serif;
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -16,7 +22,7 @@
     background: rgba(75, 74, 74, 0.4);
     margin-bottom: 50px;
 }
-@keyframes color-changer{
+@keyframes letter-color-changer{
     0%{color: white;}
     50% {box-shadow: -1px -2px 58px 10px rgba(235,12,12,0.63);}
     100%{color: white;}
@@ -25,7 +31,7 @@
     /* color: red; */
     font-weight: bold;
     animation-iteration-count: infinite;
-    animation-name: color-changer;
+    animation-name: letter-color-changer;
     animation-duration: 2500ms;
 }
 .submain-text h2{
@@ -40,34 +46,64 @@
         font-size: 3vh;
     }
 }
-
-.arrow-navigation-up{
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    right: 60px;
-    bottom: 60px;
-    background: rgba(75, 74, 74, 0.7);
-    visibility: hidden;
-}
-.arrow-navigation-up a{
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.arrow{
-    font-size: 40px;
-}
 .baner-container{
-    display: flex;
-    justify-content: center;
+    min-height: 90vh;
+    background: white;
+    position: relative;
+}
+.baner-container::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-top: 90vh solid #C99DD1;
+    box-shadow: 100px 0 0 0 red;
+    border-right: 100vw solid transparent;
+}
+.baner-header{
+    z-index: 2;
+    position: relative;
+    text-align: center;
 }
 .baner-image{
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
 }
-.first-image{
-    width: 400px;
+.slider{
+    width: 700px;
+    z-index: 2;
+    border: 3px solid black;
+    box-shadow: 0px 9px 26px -2px rgba(0,0,0,0.75);
+}
+.navigation-tools{
+    color: rgba(158, 158, 158, 1);
+    z-index: 2;
+}
+.navigation-tools:hover{
+    color: rgba(201, 201, 201, 9);
+    cursor: pointer;
+}
+.fa-arrow-left{
+    font-size: 40px;
+    padding-right: 20px;
+}
+.fa-arrow-right{
+    font-size: 40px;
+    padding-left: 20px;
+}
+.name-slider{
+    text-align: center;
+    padding: 30px 0  0;
+    position: relative;
+    z-index: 2;
+}
+.name-header{
+    padding: 10px 0px 30px 0px;
+}
+.quote{
+    padding: 5px 20px 0px 20px;
 }

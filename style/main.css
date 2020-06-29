@@ -51,7 +51,7 @@ a:hover{
 }
 .col-logo{
 	width: 100px;
-	z-index: 2;
+	z-index: 4;
 }
 .col-logo img{
 	height: 50px;
@@ -65,7 +65,7 @@ a:hover{
 	justify-content: center;
 	position: relative;
 	cursor: pointer;
-	z-index: 4;
+	z-index: 6;
 }
 .hamburger-icon{
 	width: 50px;
@@ -111,7 +111,7 @@ a:hover{
 	display: flex;
 	align-self: center;
 	transition: 1s ease-out;
-	z-index: 3;
+	z-index: 5;
 }
 .hamburger-slide{
 	left: 0;
@@ -220,7 +220,28 @@ a:hover{
 	}
 }
 .space{
-	padding: 100px 0px 100px 0px;
+	padding: 100px 0px 80px 0px;
 }
 
-	
+/* Strzałka nawigacyjna - powrót do topu strony */
+.arrow-navigation-up{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    background: rgba(75, 74, 74, 0.7);
+    visibility: hidden;
+    z-index: 2;
+}
+.arrow-navigation-up a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.arrow{
+    font-size: 40px;
+}
