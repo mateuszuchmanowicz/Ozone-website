@@ -34,8 +34,11 @@
     animation-name: letter-color-changer;
     animation-duration: 2500ms;
 }
+.submain-text{
+    height: 300px;
+}
 .submain-text h2{
-    padding-top: 30px;
+    margin: 0 auto;
     font-size: 3vw;
 }
 @media screen and (max-width: 767px){
@@ -59,13 +62,18 @@
     top: 0;
     left: 0;
     border-top: 90vh solid #C99DD1;
-    box-shadow: 100px 0 0 0 red;
+    filter: blur(10px);
     border-right: 100vw solid transparent;
 }
 .baner-header{
     z-index: 2;
     position: relative;
     text-align: center;
+}
+.baner-header h2{
+    color: black;
+    font-weight: bold;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
 .baner-image{
     display: flex;
@@ -105,5 +113,43 @@
     padding: 10px 0px 30px 0px;
 }
 .quote{
-    padding: 5px 20px 0px 20px;
+    padding: 5px 20px 80px 20px;
+}
+.slider-tittle{
+    background: black;
+}
+.slider-tittle h2{
+    margin: 0px;
+    padding: 30px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: black;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+.slider-container{
+    background: white;
+    position: relative;
+    height: 400px;
+}
+.slider-container > *{
+    display: block;
+    position: absolute;
+    height: 300px;
+    top: 0;
+    right: 100%;
+    background: white;
+    animation: slide 12s infinite;
+}
+.slide2{
+    animation-delay: 4s;
+}
+.slide3{
+    animation-delay: 8s;
+}
+@keyframes slide{
+    0% {right: -50%;}
+    50% {right: 50%; transform: translateX(50%);}
+    100% {right: 150%;}
 }

@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Electrolize&display=swap" rel="stylesheet">
-	<title>Projekt Czapski</title>
+	<title>OZONE</title>
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Mateusz Uchmanowicz">	
@@ -53,17 +53,16 @@
 			<i class="fas fa-arrow-right navigation-tools"></i>
 			<!-- Tutaj można wrzucić dwie strzałki i dać align-items: center, justify-content space arround -->
 		</div>
-		<!-- <div class="navigation-tools">
-			<i class="fas fa-arrow-left"></i>
-			<i class="fas fa-arrow-right"></i>
-		</div> -->
 		<div class="name-slider">
 			<h3 class="name-header">Marek Chujowoek</h3>
 			<p class="quote">Cześć, jestem Marek Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, quasi?</p>
 		</div>
 	</div>
-	<div class="x space">
-		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quasi animi provident incidunt. Sed enim molestias facilis excepturi saepe soluta cupiditate aperiam. Dolorum sint, exercitationem fugiat dignissimos consectetur vero totam quibusdam architecto, inventore voluptas a repudiandae tempore, qui veniam ipsam! Eum, quod! Illum rerum, sapiente doloremque quae itaque dolorum omnis, sed labore ducimus, perferendis quod tempora quisquam tempore soluta. Odit harum ipsum atque blanditiis possimus accusantium autem, tenetur provident ratione, perferendis dolores? Repudiandae neque hic eum dolorem error consequatur alias voluptatibus earum tempora provident, laborum expedita adipisci quo. Fugiat inventore quos odit ullam, deleniti debitis iure praesentium dolorem eum modi possimus dolorum esse atque cum dignissimos commodi quisquam ab adipisci reiciendis? Optio magnam cum officia quas facere maiores quod, provident nobis! Natus distinctio debitis atque praesentium ex nobis alias, exercitationem fugit cupiditate consequuntur saepe error maxime quidem! Quos reprehenderit molestiae perferendis consequuntur accusantium amet vero exercitationem ut, delectus corrupti culpa cupiditate magnam ipsa alias ducimus, sunt dolor id officia modi consequatur unde asperiores doloremque officiis? Accusamus rerum tempora veniam numquam sed. Explicabo ratione illum temporibus eaque, amet odio totam neque iure saepe reiciendis ducimus porro doloremque ullam atque sequi cupiditate. Nostrum nemo necessitatibus temporibus facilis doloribus nihil obcaecati, id aspernatur quidem distinctio quae dolor earum voluptates eius et natus in accusantium ea, cupiditate reprehenderit nesciunt totam. Optio amet excepturi eaque necessitatibus cum non quo vero error ipsum tempora quae ex culpa aliquid inventore sequi rem nesciunt perferendis, tempore neque ratione! Ex laudantium reiciendis ad corporis repellat maiores consequatur assumenda corrupti libero eos dolor quasi iusto impedit veniam maxime numquam, sint, illum id error dolorem? Provident, molestias doloremque ab nihil sapiente modi omnis natus cumque ut suscipit quae? Repellendus dolorum labore minima, voluptas consequuntur eius sequi aperiam! Odio, voluptates autem debitis, eius optio aliquid eligendi ratione recusandae dolorem illo inventore sapiente voluptatem sint ea deserunt ullam adipisci culpa repudiandae fugiat nobis, vel nesciunt unde labore repellat. Esse nostrum consequuntur voluptate fugiat odit architecto animi quasi soluta rerum veniam molestias a maxime temporibus vero, impedit asperiores nesciunt quo sapiente quidem totam doloremque inventore quam, at non? Dolore saepe voluptatem possimus blanditiis sapiente exercitationem excepturi fuga, corporis voluptate quae. Inventore blanditiis doloremque hic qui ipsam magnam
+	<div class="slider-tittle"><h2>Firmy z którymi współpracujemy</h2></div>
+	<div class="slider-container">
+		<img src="../media/company1.png" class="img-fluid slide1">
+		<img src="../media/company2.png" class="img-fluid slide2">
+		<img src="../media/company1.png" class="img-fluid slide3">
 	</div>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
