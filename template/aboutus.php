@@ -58,11 +58,37 @@
 			<p class="quote">Cześć, jestem Marek Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, quasi?</p>
 		</div>
 	</div>
-	<div class="slider-tittle"><h2>Firmy z którymi współpracujemy</h2></div>
+	<div class="slider-tittle"><h3>Firmy z którymi współpracujemy</h3></div>
 	<div class="slider-container">
 		<img src="../media/company1.png" class="img-fluid slide1">
 		<img src="../media/company2.png" class="img-fluid slide2">
 		<img src="../media/company1.png" class="img-fluid slide3">
+	</div>
+	<div class="timeline-container space">
+		<div class="timeline-container-left">
+			<div class="timeline-content">
+				<h4>2018</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aperiam amet natus, obcaecati quas, eos similique voluptate odit dicta quo reiciendis, dolorum ex. Deleniti voluptatibus earum possimus delectus quas error?</p>
+			</div>
+		</div>
+		<div class="timeline-container-right">
+			<div class="timeline-content">
+				<h4>2019</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aperiam amet natus, obcaecati quas, eos similique voluptate odit dicta quo reiciendis, dolorum ex. Deleniti voluptatibus earum possimus delectus quas error?</p>
+			</div>
+		</div>
+		<div class="timeline-container-left">
+			<div class="timeline-content">
+				<h4>2018</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aperiam amet natus, obcaecati quas, eos similique voluptate odit dicta quo reiciendis, dolorum ex. Deleniti voluptatibus earum possimus delectus quas error?</p>
+			</div>
+		</div>
+		<div class="timeline-container-right">
+			<div class="timeline-content">
+				<h4>2019</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aperiam amet natus, obcaecati quas, eos similique voluptate odit dicta quo reiciendis, dolorum ex. Deleniti voluptatibus earum possimus delectus quas error?</p>
+			</div>
+		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
