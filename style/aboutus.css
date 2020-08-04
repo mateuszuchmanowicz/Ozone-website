@@ -29,7 +29,7 @@
 }
 .main-text h1{
     font-size: 6vw;
-    background: rgba(75, 74, 74, 0.4);
+    /* backgroud: rgba(75, 74, 74, 0.4); */
     margin-bottom: 50px;
 }
 @keyframes letter-color-changer{
@@ -71,7 +71,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    border-top: 90vh solid rgba(0, 0, 0, 0.3);
+    border-top: 90vh solid rgba(0, 0, 0, 0.5);
     filter: blur(10px);
     border-right: 100vw solid transparent;
 }
@@ -163,6 +163,9 @@
     50% {right: 50%; transform: translateX(50%);}
     100% {right: 150%;}
 }
+.timeline-container >*{
+    overflow-x: visible;
+}
 .timeline-container{
     min-height: 1000px;
     background: black;
@@ -176,24 +179,39 @@
     top: 20px;
     left: 50%;
     background: white;
+    margin-left: -1.5px;
 }
-.timeline-container-left{
-    left: 0;
+.container{
     position: relative;
     min-height: 300px;
     width: 50%;
     padding: 10px 80px;
+    left: 0;
+    margin: 0px;
+    transition: .5s ease;
+    transform: rotateY(90deg);
 }
-.timeline-container-left::after{
+/*Rounded Circle at timeline*/
+.container::after{
     content:'';
     border-radius: 50%;
     height: 30px;
     width: 30px;
     background: white;
     position: absolute;
-    top:0;
+    top:20px;
     right: -15px;
-    
+    z-index: 333;
+}
+.left{
+    left: 0;
+    margin: 0px;
+}
+.right{
+    left: 50%;
+}
+.right::after{
+    left: -15px;
 }
 .timeline-content{
     background: rgba(75, 74, 74, 0.4);
@@ -205,21 +223,6 @@
 .timeline-content h4{
     font-weight: bold;
 }
-.timeline-container-right{
-    left: 50%;
-    position: relative;
-    min-height: 300px;
-    width: 50%;
-    padding: 10px 50px;
-}
-.timeline-container-right::after{
-    content:'';
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background: white;
-    position: absolute;
-    top: 0;
-    left: -15px;
-    
-}
+
+/* Otwieranie książki animacja, RotateY (-60deg) oraz media query trzeba napisać */
+

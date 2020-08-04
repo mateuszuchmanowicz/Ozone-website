@@ -37,3 +37,21 @@ const hold = function(){
 
 window.addEventListener("scroll", showArrow);
 document.addEventListener("DOMContentLoaded", hold);
+
+//Animate cards on timeline//
+
+const animateCards = function(){
+    const scroll = window.scrollY;
+    const cards = document.querySelectorAll('.timeline-container .container');
+    const sliderOffset = document.querySelector(".slider-tittle").offsetTop;
+    
+    cards.forEach(function(card){
+        const offset = card.offsetTop + sliderOffset;
+        if(scroll >= offset){
+            card.style.transform = "rotate(0deg)";
+            console.log('dziala');
+        }
+    })
+};
+
+document.addEventListener('scroll', animateCards);
